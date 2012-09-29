@@ -1,12 +1,31 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+/* Gospodin Mitov ne moga da razbera kak x e interval i
+ ako ne inyerval kak trqbva da se vuvede za da ima 10 razlichni ne4etni delitelq
+ zashtoto togava shte trqbva da e ogromno*/
 
-# Compiled Dynamic libraries
-*.so
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <math.h>
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+using namespace std;
+
+int main (){
+    int prime1 ,prime2 ,proverka;
+    float result1 ,result2 ,x  ,sum ,n;
+    bool check;
+    
+    cout << "vuvedete x:" << endl;
+    cin >> x;
+    if(x <0){
+         cout << "vuvedete x otnovo x>= 0" << endl;
+         cin >> x;
+         }
+    
+
+
+    
+                  
+    
+    return 0;   
+}
